@@ -3,7 +3,7 @@
 Plugin Name:  Menu Item Types — Action
 Plugin URI:   https://maxpertici.fr#menu-item-types
 Description:  Add the ability to define your custom action in your nav menu
-Version:      1.0
+Version:      1.1
 Author:       @maxpertici
 Author URI:   https://maxpertici.fr
 Contributors:
