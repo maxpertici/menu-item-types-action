@@ -3,7 +3,7 @@
 Plugin Name:  Menu Item Types — Action
 Plugin URI:   https://maxpertici.fr#menu-item-types
 Description:  Add the ability to define your custom action in your nav menu
-Version:      1.1
+Version:      1.2
 Author:       @maxpertici
 Author URI:   https://maxpertici.fr
 Contributors:
@@ -99,7 +99,7 @@ function mitypes_action_notice_plugin_required(){
     $mitypes_link = get_admin_url() . $mitypes_search_url ;
 
     echo '<div id="message" class="error notice is-dismissible">
-        <p>'. esc_html__( 'Please install and activate', 'menu-item-types-action') . ' ' . '<a href="' . esc_url( $mitypes_link ) . '">Menu Item Types</a>'. ' ' . __('for using Menu Item Types — Button plugin.' , 'mitypes-button-aciton' ) . '</p>
+        <p>'. esc_html__( 'Please install and activate', 'mitypes-action') . ' ' . '<a href="' . esc_url( $mitypes_link ) . '">Menu Item Types</a>'. ' ' . __('for using Menu Item Types — Action plugin.' , 'mitypes-action' ) . '</p>
     </div>';
 
     
@@ -107,5 +107,5 @@ function mitypes_action_notice_plugin_required(){
     remove_action('admin_notices', 'mitypes_action_notice_plugin_required');
 
     // shutdown
-    deactivate_plugins( 'menu-item-types-button/menu-item-types-action.php' );
+    deactivate_plugins( 'menu-item-types-action/menu-item-types-action.php' );
 }

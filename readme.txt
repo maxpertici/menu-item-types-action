@@ -3,8 +3,8 @@ Contributors: maxpertici
 Donate link: 
 Tags: Menu, Custom, Nav item, Action, Hook
 Requires at least: 5.8
-Tested up to: 5.8
-Stable tag: 1.1
+Tested up to: 6.1
+Stable tag: 1.2
 Requires PHP: 7.0
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -45,6 +45,10 @@ No, there are two dependencies:
 * [Menu Item Types](https://wordpress.org/plugins/menu-item-types/)
 
 == Changelog ==
+
+= 1.2 =
+* Version bump
+* WP 6.1 ready
 
 = 1.1 =
 * added some checks on the slug of the action that will be executed in the renders
